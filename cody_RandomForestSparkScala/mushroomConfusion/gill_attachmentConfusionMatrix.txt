@@ -1,0 +1,9 @@
+Confusion Matrix
+[TP FP]
+[FN TN]
+0	0
+1203	1333
+Accuracy: 0.5256309148264984
+Error Rate: 0.47436908517350157
+No Predicted true cases
+Percent false negative: 0.47436908517350157

@@ -1,0 +1,2 @@
+Variable, Accuracy, ErrorRate, PercentFalsePositive, PercentFalseNegative
+[spore, odor], 0.9852118305355716, 0.014788169464428458, 0.0, 0.027086383601756955

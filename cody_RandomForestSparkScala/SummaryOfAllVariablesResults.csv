@@ -1,0 +1,2 @@
+Variable, Accuracy, ErrorRate, PercentFalsePositive, PercentFalseNegative
+[cap_shape,cap_surface,cap_color,bruises,odor,gill_attachment,gill_spacing,gill_size,gill_color,stalk_shape,stalk_root,stalk_surface_above_ring,stalk_surface_below_ring,stalk_color_above_ring,stalk_color_below_ring,veil_color,ring_number,ring_type,spore,population,habitat], 0.990503715937242, 0.009496284062758051, 0.0, 0.017584097859327217

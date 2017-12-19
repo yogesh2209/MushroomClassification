@@ -1,0 +1,13 @@
+How to run the code:
+1. Install Intellij community version: https://www.jetbrains.com/idea/download/
+2. Install the Scala plugin when initially setting up Intellij, use this as a reference: https://www.supergloo.com/fieldnotes/intellij-scala-spark/.
+   steps 1-4 go over the steps to installing the Scala plugin. The rest details how to import the spark libraries using SBT but I did not use that method.
+3. Download Spark 2.2.0 from here: https://spark.apache.org/downloads.html. 1. Choose Spark release 2.2.0 (Jul 11 2017), 2. Choose a package type: Pre-built
+   for Apache Hadoop 2.7 and later and on number 3. click the spark-2.2.0-bin-hadoop2.7.tgz
+4. Extract spark-2.2.0-bin-hadoop2.7.tgz to your chosen destination such as "/home/cjordan"
+5. Open this project in Intellij
+6. Right click on the folder "RandomForestSparkScala" and select "Open Module Settings"
+7. In the "Project Structure" pop-up window, select SDKs.
+8. Add the path you selected in step 4 using the green "+" sign on the right of the list. This brings up another pop-up window, navigate to the spark bin
+   extract path ("/home/cjordan/spark-2.2.0-bin-hadoop2.7.tgz/jars") and click on the first, scroll down and shift click on the last jar and hit "ok"
+9. This should have added all the spark jars to Intellij's SDK path and allow you to navigate to the src folder and run "main"
